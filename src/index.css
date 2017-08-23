@@ -1,0 +1,75 @@
+*{
+    background-color: #000;
+}
+nav{
+    text-align: center;
+    padding-top: 20px;
+    font-family: verdana,sans-serif;
+    font-size: 20pt;
+    color: #ddd;
+    text-shadow: 0px 1px 1px #fff;
+}
+span{
+    font-size: 15pt;
+}
+.alert{
+    width: 601px;
+    text-align: center;
+    font-size: 20pt;
+}
+.containerr{
+    width:601px;
+    height: 432px;
+    overflow:hidden;
+    position: absolute;
+    transform: translate(150px,110px);
+}
+.items{
+    font-family: Verdana,sans-serif;
+    position: absolute;
+    transform: translate(150px,80px);
+    color: #fff;
+}
+
+.oneline{
+    display: flex;
+}
+.white , .black, .ingredient, .monster,.dungeon,.player, .weapon,.bigmonster{
+    width: 12px;
+    height: 12px;
+}
+.black{
+    background-color: #283154
+}
+.white{
+    background-color: #fffff0;
+}
+.ingredient{
+    background-color: #0f0;
+}
+.monster{
+    background-color: #f00;
+}
+.dungeon{
+    background-color: blueviolet ;
+}
+.player{
+    background-color: deepskyblue ;
+}
+.weapon{
+    background-color: #f7cb26 ;
+}
+.bigmonster{
+    background: linear-gradient(#a0a,#f0f);
+}
+.guide{
+    color: #fff;
+    position: absolute;
+    transform: translate(900px,200px);
+    width:450px;
+}
+.cont{
+    display: flex;
+}
+
+/* 432 / 601 50%*50% /// 36 , 50
